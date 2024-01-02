@@ -13,21 +13,21 @@ const initialState: TaredasState = {
       descricao: 'Estudar Javascript',
       prioridade: enums.Prioridade.IMPORTANTE,
       status: enums.Status.PENDENTE,
-      titulo: ''
+      titulo: 'Estudar Javascript'
     },
     {
       id: 2,
       descricao: 'Estudar Typescript',
       prioridade: enums.Prioridade.NORMAL,
       status: enums.Status.CONCLUIDA,
-      titulo: ''
+      titulo: 'Estudar Typescript'
     },
     {
       id: 3,
       descricao: 'Estudar React',
       prioridade: enums.Prioridade.URGENTE,
       status: enums.Status.PENDENTE,
-      titulo: ''
+      titulo: 'Estudar React'
     }
   ]
 }
