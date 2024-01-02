@@ -1,3 +1,11 @@
-const Cadastro = () => <h1>nova tarefa</h1>
+import BarraLateral from '../../containers/BarraLateral'
+import Formulario from '../../containers/Formulario'
+
+const Cadastro = () => (
+  <>
+    <BarraLateral />
+    <Formulario />
+  </>
+)
 
 export default Cadastro

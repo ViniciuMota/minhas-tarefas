@@ -3,6 +3,7 @@ import FiltroCard from '../../components/FiltroCard'
 import { RootReducer } from '../../store'
 import { alterartermo } from '../../store/reducers/filtro'
 import * as enums from '../../utils/enums/Tarefa'
+import { Campo } from '../../styles'
 
 import * as S from './styles'
 
@@ -13,7 +14,7 @@ const BarraLateral = () => {
   return (
     <S.Aside>
       <div>
-        <S.Campo
+        <Campo
           type="text"
           placeholder="Buscar"
           value={termo}
